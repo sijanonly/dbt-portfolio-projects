@@ -1,0 +1,6 @@
+version: 2
+seeds:
+  - name: raw_bike_demand
+    config:
+      column_types:
+        datetime: timestamp

@@ -1,0 +1,43 @@
+# --- IDEs & OS ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.user.yml
+
+# --- Environment & Secrets ---
+.env
+profiles.yml
+
+# --- Python & Virtual Envs ---
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# --- dbt / Data Tools ---
+**/target/
+**/logs/
+**/dbt_packages/
+**/dbt_modules/
+.dbt/
+**/seeds/*.csv
+*.duckdb
+*.duckdb.wal
+
+# --- Build Artifacts (Java/Maven/General) ---
+**/dist/
+*.class
+*.jar
+*.war
+*.app
+*.exe
+TEST*.xml
+
+# --- Media ---
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
